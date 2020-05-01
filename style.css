@@ -1,0 +1,39 @@
+div#header-center, div#seungmin-cho{ /*div는 #앞에 생략가능 나머지는 꼭써줘야해 header#등등*/
+    margin: 0 auto;
+    width: 1080px;
+}
+
+#header-search{
+
+}
+
+#header-search > h1{/* > 자식 태그에 적용 ' '띄어쓰기는 자손*/
+    width: 222px;
+    display: inline-block;
+}
+
+#header-search h2{
+    display: none;
+
+}
+#header-search fieldset{
+    width: 586px;
+    display: inline-block;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+.right-sort{
+    float: right;
+}
+
+.blind{
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
