@@ -1,24 +1,67 @@
+* {
+    box-sizing: border-box;
+}
 div#header-center, div#seungmin-cho{ /*div는 #앞에 생략가능 나머지는 꼭써줘야해 header#등등*/
     margin: 0 auto;
     width: 1080px;
 }
 
 #header-search{
-
 }
 
 #header-search > h1{/* > 자식 태그에 적용 ' '띄어쓰기는 자손*/
     width: 222px;
+    height: 52px;
     display: inline-block;
+    vertical-align: middle;
 }
-
-#header-search h2{
+#header-search h1 span{/* > 자식 태그에 적용 ' '띄어쓰기는 자손*/
     display: none;
 
+
 }
-#header-search fieldset{
-    width: 586px;
+#header-search h2{
     display: inline-block;
+
+}
+
+#header-search fieldset{
+    width: 472px;
+    height: 52px;
+    margin-left: 20px;
+    padding: 12px 0 12px 10px; /*위 오른쪽 아래쪽 왼쪽*/
+    border: 2px solid #03cf5d;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+#header-search fieldset input{
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+#header-search fieldset button{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border: none;
+    padding: 0;
+    background: #03cf5d;
+
+}
+
+#search-image{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url("./sp_main.bcbb48.png");
+    background-size: 421px 393px;
+    background-position: -379px -120px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+
 }
 
 .display-inline-block{
@@ -36,4 +79,15 @@ div#header-center, div#seungmin-cho{ /*div는 #앞에 생략가능 나머지는 
     margin: -1px;
     width: 1px;
     height: 1px;
+}
+
+.logo_naver {
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-image: url("./sp_main.bcbb48.png");
+    background-size: 421px 393px;
+    background-position: 0 -161px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
 }
